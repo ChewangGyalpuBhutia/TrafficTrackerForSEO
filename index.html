@@ -37,6 +37,7 @@
 
     <script>
         document.getElementById('testButton').addEventListener('click', function () {
+            console.log('Test button clicked');
             // This will trigger the GTM event
             dataLayer.push({
                 'event': 'test_button_click',
